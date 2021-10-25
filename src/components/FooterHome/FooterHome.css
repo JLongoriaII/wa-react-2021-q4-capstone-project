@@ -1,0 +1,23 @@
+.icono-footer {
+  color: var(--color-blanco-general);
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.created-by,
+.span-created-by {
+  color: var(--color-blanco-general);
+}
+
+.icono-linkedin {
+  color: var(--color-blanco-general);
+  font-size: 18px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.section-footer-home__container {
+  text-align: center;
+  background-color: var(--color-gris-footer);
+}

@@ -1,0 +1,71 @@
+.navbar-home-header {
+  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s;
+  border-bottom: 1px solid #e8e8e8;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: var(--color-blanco-general);
+  height: 66px;
+}
+
+.col-title-div-home {
+  width: 250px;
+  height: 64px;
+}
+
+.ant-menu {
+  background: transparent;
+  border-bottom: 0;
+  text-align: right;
+  display: block;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: var(--color-gris-footer);
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid var(--color-gris-footer);
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: var(--color-verde-general);
+}
+
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: var(--color-verde-general);
+}
+
+.ant-input-group-wrapper,
+.ant-badge {
+  vertical-align: middle;
+}
+
+.ant-input-search-button,
+.ant-input-search-button:hover,
+.ant-input-search-button:focus {
+  background-color: var(--color-gris-footer);
+  background: var(--color-gris-footer);
+  border-color: var(--color-gris-footer);
+}
+
+.ant-input-search .ant-input:hover,
+.ant-input-search .ant-input:focus {
+  border-color: var(--color-gris-footer);
+  box-shadow: 0 0 0 2px rgb(0 0 0 / 20%);
+}

@@ -1,0 +1,114 @@
+@media (min-width: 576px) {
+  .section-productos-home__container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-productos-home__container {
+    max-width: 820px;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-productos-home__container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-productos-home__container {
+    max-width: 1140px;
+  }
+}
+
+.section-productos-home {
+  background-color: var(--color-blanco-general);
+  padding: 0px 0px 40px 0px;
+}
+
+.section-productos-home__container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.card-productos {
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.card-productos:hover {
+  top: -30px;
+}
+
+.col-productos {
+  padding: 15px 25px;
+}
+
+@media (max-width: 768px) {
+  .col-productos {
+    padding: 10px 10px;
+  }
+}
+
+.ant-card-bordered {
+  border: 0px;
+}
+
+.card-info-productos {
+  padding: 15px 5px;
+}
+
+.titulo-productos {
+  color: #666;
+  font-weight: 600;
+}
+
+.precio-antes-productos {
+  color: #ada8a8;
+  letter-spacing: 1px;
+  margin-top: -8px;
+}
+
+.precio-ahora-productos {
+  color: red;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: -8px;
+}
+
+.ant-card-bordered {
+  border-radius: 7px !important;
+  background-color: transparent;
+}
+
+.ant-card-cover {
+  text-align: -webkit-center;
+}
+
+.pagination-productos {
+  text-align: center;
+}
+
+.titulo-resenias {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 30px 0 0;
+  color: var(--color-gris-footer);
+}
+
+.subtitulo-resenias {
+  font-style: italic;
+  letter-spacing: 2px;
+  color: var(--color-gris-footer);
+}
+
+.categoria-productos {
+  color: #666;
+}
