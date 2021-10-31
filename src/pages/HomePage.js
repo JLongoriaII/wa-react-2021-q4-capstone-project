@@ -10,8 +10,11 @@ export default function HomePage() {
   return (
     <>
       <NavbarHome />
+      {/* Banners Slider */}
       <BannersHome />
+      {/* Carouse */}
       <CategoriesCarousel />
+      {/* Featured Products */}
       <ProductsHome />
       <FooterHome />
     </>
