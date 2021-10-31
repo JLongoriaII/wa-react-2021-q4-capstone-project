@@ -112,3 +112,17 @@
 .categoria-productos {
   color: #666;
 }
+
+.boton-productos {
+  color: white;
+  background-color: var(--color-gris-footer);
+  border-radius: 3px;
+}
+
+.boton-productos:hover,
+.boton-productos:focus {
+  color: var(--color-gris-footer);
+  background-color: white;
+  border-color: var(--color-gris-footer);
+  border-radius: 3px;
+}
